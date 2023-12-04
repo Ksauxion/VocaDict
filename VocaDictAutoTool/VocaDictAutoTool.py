@@ -31,7 +31,9 @@ def spl(a,ph,p,r,vow):
     while "  " in phs:
         phs=phs.replace("  "," ")
     phs=phs.replace("- ","-")
-    phs=phs.replace(" -","-")
+    phs = phs.replace(" -", "-")
+    while "--" in a:
+        a=a.replace("--","-")
     ta=phs.count('-')
     for i in range(len(p)):
         if len(p[i])>1:
