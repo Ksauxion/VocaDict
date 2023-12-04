@@ -12,8 +12,10 @@ The dictionary MUST BE SORTED!
 There's a few python scripts I made. They're located in VocaDictAutoTool directory.
 VocaDictAutoTool.py splits your dictionary in format of "word <tab> phonemes separated by space" into a .xidict one. The errors are stored in errors.log.
 VocaDictSortTool.py sorts your .xidict, which is NECESSARY.
+## How to install .lua script in vocaloid?
+Open "Job","Manage Job Plugins" and add the .lua script.
 ## How to use .lua script in vocaloid?
-First of all, you should write the lyrics on the pianoroll. If you want the word to be splitted into multiple sylalables, put + to the next note until the word ends.
+First of all, you should write the lyrics on the pianoroll. If you want the word to be splitted into multiple sylalables, put + to the next note until the word ends. Then run the Job plugin.
 ## How can I change a dictionary?
 Paste the path to the dictionary into settings.txt
 ## The script isn't working in japanese/korean/chinese dbs!
