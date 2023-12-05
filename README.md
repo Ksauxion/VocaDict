@@ -1,12 +1,12 @@
 # VocaDict script: custom dictionaries in Vocaloid3-4
 ## The problem
 A DBTool for Vocaloid3 was leaked recently, which allow you to create voicebanks with any phonemes. But the dictionaries (word-phonemes) are built in the program.
-For that case I created a VocaDict script, which allow you to create your own dictionarues for any language.
+For that case I created a VocaDict script, which allow you to create your own dictionaries for any language.
 ## How can I create a dictionary?
 The structure of dictionary (.xidict format) is the following:
 List of vowels separated by comma
 Whole word,word separated by syllables via -,phonemes separated by syllables via -
-The vowels are not implemented now, but they're will be used in further updates ig
+The vowels are not implemented now, but they will be used in further updates ig
 The dictionary MUST BE SORTED!
 ## How can I fasten this process?
 There's a few python scripts I made. They're located in VocaDictAutoTool directory.
